@@ -1,1 +1,0 @@
-C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\bin\Debug\CountConsecutiveDigits.exe.config
