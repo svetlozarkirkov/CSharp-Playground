@@ -1,0 +1,6 @@
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\bin\Debug\Demo.exe.config
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\bin\Debug\Demo.exe
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\bin\Debug\Demo.pdb
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\obj\Debug\Demo.exe
+C:\Users\Sve\Documents\Visual Studio 2013\Projects\PlaygroundZone\Demo\obj\Debug\Demo.pdb
