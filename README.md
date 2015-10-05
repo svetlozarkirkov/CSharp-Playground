@@ -1,2 +1,3 @@
-# CSharp-Playground
-CSharp-Playground
+# CSharp Playground
+
+Various projects, algorithms, apps and tests done in C#
