@@ -32,50 +32,30 @@
 
             for (int i = 0; i < inputLines.Count - 2; i++)
             {
-                int numberOfIterations = 0;
-                int secondLineCounter = 0;
-                int thirdLineCounter = 0;
-
-                if (inputLines[i + 1].Length == inputLines[i].Length + 1)
+                for (int j = 0; j < inputLines[i].Length;)
                 {
-                    numberOfIterations = inputLines[i].Length;
-                }
-                else
-                {
-                    numberOfIterations = inputLines[i].Length - 1;
-                }
-
-                for (int j = 1; j < numberOfIterations; j++)
-                {
-                    secondLineCounter++;
-                    thirdLineCounter++;
-
-                    if (secondLineCounter == inputLines[i + 1].Length 
-                        || thirdLineCounter == inputLines[i + 2].Length)
-                    {
-                        break;
-                    }
-
                     try
                     {
-                        if (char.ToLower(inputLines[i][j]).Equals(char.ToLower(inputLines[i + 1][j]))
-                        && char.ToLower(inputLines[i][j]).Equals(char.ToLower(inputLines[i + 2][j]))
-                        && char.ToLower(inputLines[i][j]).Equals(char.ToLower(inputLines[i + 1][j + 1]))
-                        && char.ToLower(inputLines[i][j]).Equals(char.ToLower(inputLines[i + 1][j - 1])))
+                        char top = char.ToLower(inputLines[i][j]);
+                        char left = char.ToLower(inputLines[i + 1][j - 1]);
+                        char right = char.ToLower(inputLines[i + 1][j + 1]);
+                        char middle = char.ToLower(inputLines[i + 1][j]);
+                        char bottom = char.ToLower(inputLines[i + 2][j]);
+                        
+                        if (top == left && left == right && right == middle && middle == bottom)
                         {
-                            //Console.WriteLine("found");
                             result[i][j] = ' ';
                             result[i + 1][j] = ' ';
                             result[i + 2][j] = ' ';
                             result[i + 1][j + 1] = ' ';
                             result[i + 1][j - 1] = ' ';
                         }
+
+                        j++;
                     }
                     catch (IndexOutOfRangeException)
                     {
-                        //Console.WriteLine("i = " + i);
-                        //Console.WriteLine("j = " + j);
-                        throw;
+                        j++;
                     }
                 }
             }
@@ -89,6 +69,7 @@
                         Console.Write(character);
                     }
                 }
+
                 Console.WriteLine();
             }
         }
