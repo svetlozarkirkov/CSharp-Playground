@@ -7,7 +7,7 @@
         internal static void Main()
         {
             Console.Write("Enter expression: ");
-            string[] expression = Console.ReadLine().Split(' ');   
+            string[] expression = Console.ReadLine().Split(' ');
         }
     }
 }
