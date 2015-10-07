@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountConsecutiveDigits", "CountConsecutiveDigits\CountConsecutiveDigits.csproj", "{B24CA010-9B2F-4BBD-BE71-C7F67869EE2F}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertStringToInteger", "ConvertStringToInteger\ConvertStringToInteger.csproj", "{AE2F3BB4-FB37-44F8-BA66-123FB4114DE8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plus-Remove", "Plus-Remove\Plus-Remove.csproj", "{DEF99814-73F7-4BBE-BB22-D228B4C9C747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMatrixRotation", "StringMatrixRotation\StringMatrixRotation.csproj", "{5A3DD87B-0DA5-4717-8D40-EC91BF941B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractHyperlinks", "ExtractHyperlinks\ExtractHyperlinks.csproj", "{FEEAB67E-F501-4B72-A7A5-FECA62FA900B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{DEF99814-73F7-4BBE-BB22-D228B4C9C747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF99814-73F7-4BBE-BB22-D228B4C9C747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF99814-73F7-4BBE-BB22-D228B4C9C747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3DD87B-0DA5-4717-8D40-EC91BF941B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3DD87B-0DA5-4717-8D40-EC91BF941B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3DD87B-0DA5-4717-8D40-EC91BF941B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3DD87B-0DA5-4717-8D40-EC91BF941B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEAB67E-F501-4B72-A7A5-FECA62FA900B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEAB67E-F501-4B72-A7A5-FECA62FA900B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEAB67E-F501-4B72-A7A5-FECA62FA900B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEAB67E-F501-4B72-A7A5-FECA62FA900B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
